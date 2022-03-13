@@ -313,7 +313,7 @@ def adjust_contrast_with_mean_subtraction(image: Tensor, factor: Union[float, Te
 
     .. note::
         this is just a convenience function to have compatibility with Pil. For exact
-        definition of image contrast adjustmen consider using :func:`kornia.enhance.adjust_gamma`.
+        definition of image contrast adjustment, consider using :func:`kornia.enhance.adjust_gamma`.
 
     Args:
         image: Image to be adjusted in the shape of :math:`(*, H, W)`.
