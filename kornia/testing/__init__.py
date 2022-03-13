@@ -198,7 +198,7 @@ def KORNIA_CHECK_IS_TYPE(x: Any, type: Union[Type[T], Iterable[Type[T]]], msg: O
 
     for t in type:
         if not isinstance(x, t):
-            raise TypeError(f"Wrong type. Got: {type}.\n{msg}")
+            raise TypeError(f"Wrong type. Got: {t}.\n{msg}")
 
 
 def KORNIA_CHECK_IS_TENSOR(x: Any, msg: Optional[str] = None):
